@@ -5,6 +5,7 @@ import scss from "rollup-plugin-scss";
 import postcss from "postcss";
 import autoprefixer from "autoprefixer";
 import path from "path";
+import del from "rollup-plugin-delete";
 
 export default {
   input: "src/index.ts",
@@ -19,12 +20,12 @@ export default {
     //   format: "amd",
     // },
     // {
-    //   file: "./lib/index.js",
+    //   file: "./dist/index.js",
     //   format: "cjs",
     //   exports: "named"
     // },
     {
-      file: "./lib/index.js",
+      file: "./dist/index.js",
       format: "esm",
     },
     // {
@@ -53,6 +54,7 @@ export default {
     typescript({
       target: "es2015",
     }),
+    del({ targets: "dist/*"}),
     tenser(),
   ],
 };

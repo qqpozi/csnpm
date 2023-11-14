@@ -2,9 +2,9 @@
   "name": "csnpm",
   "version": "1.0.0",
   "description": "csnpm",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "start": "concurrently \"npm run dev\" \"npm run serve\"",
@@ -20,7 +20,6 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://gitee.com/malibo/csnpm",
-
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
@@ -39,6 +38,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@web/dev-server": "^0.4.0"
+    "@web/dev-server": "^0.4.0",
+    "rollup-plugin-delete": "^2.0.0"
   }
 }
