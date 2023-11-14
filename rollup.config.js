@@ -18,15 +18,15 @@ export default {
     //   file: "./dist/index.amd.js",
     //   format: "amd",
     // },
+    // {
+    //   file: "./lib/index.js",
+    //   format: "cjs",
+    //   exports: "named"
+    // },
     {
       file: "./lib/index.js",
-      format: "cjs",
-      exports: "named"
+      format: "esm",
     },
-    // {
-    //   file: "./dist/index.esm.js",
-    //   format: "esm",
-    // },
     // {
     //   file: "./dist/index.umd.js",
     //   format: "umd",
