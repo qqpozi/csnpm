@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "csnpm",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "start": "concurrently \"npm run dev\" \"npm run serve\"",
     "dev": "rollup -c -w --bundleConfigAsCjs",
