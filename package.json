@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "start": "concurrently \"npm run dev\" \"npm run serve\"",
+    "start": "concurrently \"npm run dev\" \"npm run serve\" \"npm publish\"",
     "dev": "rollup -c -w --bundleConfigAsCjs",
     "serve": "wds --node-resolve -w --app-index demo/index.html --open",
     "test": "echo \"Error: no test specified\" && exit 1",
