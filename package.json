@@ -14,15 +14,12 @@
     "commit": "git-cz"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qqpozi00/csnpm.git"
+    "type": "gitee",
+    "url": "https://gitee.com/malibo/csnpm.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/qqpozi00/csnpm/issues"
-  },
-  "homepage": "https://github.com/qqpozi00/csnpm#readme",
+  "homepage": "https://gitee.com/malibo/csnpm",
 
   "devDependencies": {
     "@babel/core": "^7.23.2",
